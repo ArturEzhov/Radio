@@ -33,7 +33,7 @@ public class Radio {
     }
 
     public void more() {
-        if (currentVolume != 99) {
+        if (currentVolume != 100) {
             currentVolume++;
         } else {
             currentVolume = 100;
